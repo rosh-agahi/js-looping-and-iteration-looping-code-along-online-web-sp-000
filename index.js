@@ -1,13 +1,10 @@
 // Code your solutions in this file
  
 function writeCards(recipients) {
-  let recipients = [ ];
-  let i=0;
-  while (i < recipients.length) {
-    console.log(`Thank you, ${recipients[i]}, for the wonderful surprise gift!`);
-    i++;
+  let recipients = [];
+  for (let i = 0; i < names.length; i++) {
+    recipients.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
   }
- 
   return recipients;
 }
  
