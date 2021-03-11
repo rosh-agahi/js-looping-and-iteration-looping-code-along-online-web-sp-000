@@ -1,7 +1,7 @@
 // Code your solutions in this file
  
-function writeCards(recipients) {
-  let recipients = [];
+function writeCards() {
+  let names = [];
   for (let i = 0; i < names.length; i++) {
     recipients.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
   }
