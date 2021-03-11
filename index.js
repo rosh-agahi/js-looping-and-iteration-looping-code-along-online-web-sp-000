@@ -2,8 +2,10 @@
 const recipients = ["Lisa", "Kaitlin", "Jan"];
  
 function writeCards(recipients) {
-  for (let i = 0; i < recipients.length; i++) {
-    console.log(`Thank you, ${recipients[i]}, for the wonderful surprise gift!`);
+  let i=0;
+  while (i < recipients.length) {
+    console.log(`Thank you, ${recipients[i]}, for the wonderful surprise gift');
+    i++;
   }
  
   return recipients;
