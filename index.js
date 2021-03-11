@@ -1,12 +1,12 @@
 // Code your solutions in this file
-const gifts = ["teddy bear", "drone", "doll"];
+const recipients = ["Ada", "Brendan", "Ali"], "birthday"];
  
-function wrapGifts(gifts) {
-  for (let i = 0; i < gifts.length; i++) {
-    console.log(`Wrapped ${gifts[i]} and added a bow!`);
+function writeCards(recipients) {
+  for (let i = 0; i < recipients.length; i++) {
+    console.log(`Thank you, ${recipients[i]}, for the wonderful birthday gift`);
   }
  
-  return gifts;
+  return recipients;
 }
  
-wrapGifts(gifts);
+writeCards(recipients);
